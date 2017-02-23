@@ -1,0 +1,63 @@
+*{ padding: 0px;margin: 0 ;font-family: 微软雅黑;list-style: none;}
+#contain{position:relative;float: left; width: 100%;}
+#head{position: relative;float: left; text-align: center;width: 100%;height: auto;padding-top: 20px;}
+#head>ul{position: relative;width: 66%;margin:0 auto;}
+#head li{position: relative; float: left;width: 25%;height: 53px; line-height: 53px;font-weight: bold;font-size: 20px;}
+#title {clear: both;position: relative; width: 66%;margin: 0 auto;top: -10px;}
+.circle {z-index: 10; position:absolute;float: left; width: 40px;height: 40px; border-radius: 50%;background-color: #BDBDBD;left: 42%;}
+.line{position: absolute; width: 100%;height: 20%;background-color: #BDBDBD;left:-50%;top:30%;}
+#content1,#content2,#content3,#content4{position:relative;float: left; width: 100%;height: auto; background: url(../image/1.jpg);background-repeat: no-repeat;}
+#content2,#content3,#content4 {display: none;}
+.content-left{position: relative;float: left; width:20%;left:18%; top: 40px; }
+.content-left p{right: 0px;text-align: right;margin-top:15px;height: 30px;} 
+.content-left strong,.content-right strong{color: red;height: 30px;}
+#content2 .content-left{ width: 35%;left: 0px; text-align: right;top: -20px;}
+#content2 .content-left li {height:40px; }
+#content2-div .content-left{top: 0px;height: 25px;}
+#content3 .content-left{left: 7%;} 	
+#content3 .content-left p {opacity: .6;}
+#content3 .content-left strong{color:black;right: 0px; text-align: right;display: block;}
+.content-right{ position: relative;float: left;width: 20%;top: 40px;left: 18%;margin-left: 25px; }
+.content-right select,.content-right input{ margin-top: 15px;width: 80%;height: 30px;}
+.content-right select{ width: 32%;}
+#content2 .content-right{ line-height: 40px; width: 60%;top: -25px; left: 0px;}
+#content2 .content-right p{font-size: 10px;opacity: .6;}
+#content2 .content-right select,#content2 .content-right input{height: 20px; width: 15%;margin-top: 0px;}
+#content2 .content-right input{margin-bottom: 15px;}
+#content2-div{position: relative; float: left;width: 100%;margin-top: -25px;margin-bottom: 10px; }
+#content2-div .content-right{top: 0px;margin-bottom: 10px;}
+#member{display:none; position: relative;float:left;width: 60%;height:23px;margin-left: 25px;margin-bottom: 10px; background-size: 23px; background-image: url(../image/3.png);background-repeat: no-repeat;background-position: left;}
+#member p{margin-left: 23px;white-space: nowrap;}
+#content2-div button{display: none;}
+#content2-div  select{display: none; background-image: url(../image/2.png);background-repeat: no-repeat;background-size: 23px;background-position:right;width: 150px; margin-bottom: 10px; position: relative;float: left;height: 23px;margin-left: 25px;margin-right: 10px; appearance:none; -webkit-appearance:none;}
+#content2-div .content-right img{position: relative;float: left; width: 23px;height: 23px; }
+#content2-div .content-right div{ position: relative; float: left;height: 23px;margin-top: -10px;}
+#content2-left-buttom{ position: relative;float: left; width: 35%; text-align: right;line-height: 39px;}
+#content2-right-buttom{position: relative;float: left;width: 60%; margin-left: 25px;}
+#content2-right-buttom textarea{position: relative;float: left; width: 300px;height: 150px;}
+#content3 .content-right{left: 7%;width: 50%;top: 25px;}
+#content1 button,#content3 .button1,#content4 .button1,#content2 .button1{clear: both; position: relative;float: left;margin: 80px 0;left: 45%;width: 100;height: 40px;color: white;border-radius: 6px; background-color: #33C600;font-size: 15px;}
+#content3 h3{ position: relative;width: 60%; margin: 0 auto;opacity: .6;text-align: center;}
+#content3 .input1{border-color: black;width: 60%;}
+#content3 .input2{width: 5%;}
+#content3 .input3{width: 8%;}
+#content3 input{opacity:.6;width: 50%;}
+#content3 .content-right select{ width:auto;}
+#content3 .content-right p{white-space: nowrap;}
+#content3 .checkbox{position: relative;float: left;width: auto;white-space: nowrap;height: 30px;margin-bottom: 15px;}
+#content3 .checkbox input{width: 23px;height: 15px;}
+#content3 .checkbox span{height: 30px;}
+#content3 button{height: 30px;width: auto;border-radius: 3px;margin-left:10px;padding: 0 5px;background-color: white;}
+#content3 #image{width: 250px;height:150px; border:1px grey solid;margin-bottom: 5px;}
+#content3 .button1{padding:0px;  left: 35%;}
+#content3 .button2 ,#content4 .button2,#content2 .button2{font-size: 15px;position: relative;float: left;margin: 80px 0;padding: 0px; left: 45%;width: 100;height: 40px;color: white;border-radius: 6px; background-color: #FF7100}
+#content4-part{position: relative;width: 66%;margin: 0 auto;}
+#content4 .title {position: relative;border-bottom: 3px solid #636363;}
+#content4 .title strong {font-size: 20px;}
+#content4 .title a{color: red;float: right;text-decoration: none;} 
+#content4-part1,#content4-part2,#content4-part3{position: relative;float: left;width: 100%;margin-bottom:20px;margin-top: 15px;}
+#content4 ul{position: relative;float: left;margin-top: -25px;height: auto;}
+#content4 li{line-height:35px;white-space: nowrap;}
+#content4 .content-left{left: 0px; width: 20%;text-align: right;}
+#content4 .content-right{ left: 0px; width: 25%}
+#content4 .button1,#content2 .button1{left: 35%;}

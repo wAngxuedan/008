@@ -1,0 +1,374 @@
+<html>
+<head>
+<meta author="wAngxuedan" charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</head>
+<body>
+<div id="contain">
+<!-- 头部 -->
+<div id="head">
+<h1>发布信息</h1>
+<ul>
+<li>个人信息</li>
+<li>组团信息</li>
+<li>房屋信息</li>
+<li>确认信息</li>
+</ul>
+<!-- 导航条 -->
+<div id="title">
+<ul>
+<li id="title1"><div class="circle"></div></li>
+<li id="title2"><div class="line"></div><div class="circle"></div></li>
+<li id="title3"><div class="line"></div><div class="circle"></div></li>
+<li id="title4"><div class="line"></div><div class="circle"></div></li>
+</dul>
+</div>
+
+</div>
+
+<!-- 第一页内容 -->
+<div id="content1" >
+<!-- 左边部分 -->	
+<div class="content-left">
+<p><strong>*</strong>真实姓名</p>
+<p><strong>*</strong>性别</p>
+<p><strong>*</strong>年龄</p>
+<p>家乡所在省份</p>
+<p>家乡所在城市</p>
+<p>毕业学校</p>
+<p>电话号码</p>
+<p>邮箱</p>
+<p>微信</p>
+<p><strong>*</strong>是否吸烟</p>
+<p><strong>*</strong>是否喝酒</p>
+<p><strong>*</strong>工作状态</p>
+<p></p>
+</div>
+<!-- 右边部分 -->
+<div class="content-right">
+<input type="text" name="name">
+<form action="">
+<select name="sex">
+<option value="" selceted></option>
+<option value="男">男</option>
+<option value="女">女</option>
+</select>
+<br/>
+<form action="">
+<select name="age">
+<option value="" selceted></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+<br/>	
+<select name="province">
+<option value="" selceted></option>	
+<option value=""></option>
+<option value=""></option>
+</select>
+<br/>
+<select name="city">
+<option value="" selceted></option>
+<option value=""></option>
+<option value=""></option>
+</select>
+<br/>
+<input type="text" name="school">
+<br/>
+<input type="text" name="insititute">
+<br/>
+<input type="tel" name="phone">
+<br/>
+<input type="email" name="email">
+<br/>
+<input type="text" name="wechat">
+<br/>
+<select name="somking">
+<option value="" selceted></option>
+<option value="是">是</option>
+<option value="否">否</option>
+</select>
+<br/>
+<select name="state">
+<option value="" selceted></option>
+<option value="求职">求职</option>
+<option value="已有工作">已有工作</option>
+</select>
+</form>
+</div>
+<!-- 底下按钮 -->
+<button>保存并下一步</button>
+</div>
+<!-- 第二页内容 -->
+<div id="content2">
+<div class="content-left">
+<ul>
+<li>　</li>
+<li><strong>*</strong>意向室友性别</li> 
+<li><strong>*</strong>意向合租城市</li>
+<li><strong>*</strong>意向合租城区</li>
+<li><strong>*</strong>意向室友是否找到工作</li>
+<li><strong>*</strong>意向室友交流语言</li>
+<li><strong>*</strong>合租分摊租金上限</li>
+<li><strong>*</strong>是否成员已满</li>
+</ul>
+</div>
+<div class="content-right">
+<p><strong>*</strong>为必需填</p>
+<form>
+<select name="sex">
+<option value="男" selceted>男</option>
+<option value="女">女</option>
+</select>
+<br/>
+<select name="city"0>
+<option value="" selceted></option>
+<option value=""></option>
+</select>
+<br/>
+<select name="district">
+<option value="天河区" selceted>天河区</option>
+<option value=""></option>
+</select>
+<br/>
+<select name="state">
+<option value="" selceted></option>
+<option value=""></option>
+</select>
+<br/>
+<select name="language">
+<option value="" selceted></option>
+<option value=""></option>
+</select>
+<br/>
+<input type="text">~<input type="text"><br/>
+<select name="full">
+<option value="" selceted></option>
+<option value=""></option>
+</select>
+</form>
+</div>
+<!-- 这部分用来处理点击添加的时候展示出的部分 -->
+<div id="content2-div">
+<div class="content-left">团员信息</div>
+<div id="member"><p></p></div>
+<select name="member" >	
+<option>helium</option>
+<option>heliumbaby</option>
+</select>	
+<button>确认添加</button>
+<div class="content-right">
+<img src="image/4.jpg" >
+<div>添加一名团员</div>
+</div>
+</div>
+<!-- 接着上面的内容 -->
+<div id="content2-left-buttom">团长的话</div>
+<div id="content2-right-buttom">
+<textarea></textarea>	
+</div>
+<!-- 底下2个按钮 -->
+<button class="button1">保存并下一步</button>
+<button class="button2">返回</button>
+</div>
+
+<!-- 第三页内容 -->
+<div id="content3">
+<!-- 最上面一句话 -->
+<h3>以下信息全为可选项，如您已找到房子，可填下以下信息</h3>
+<!-- 左边部分 -->
+<div class="content-left">
+<strong>链接</strong><br/>
+<p>小区</p>
+<p>地址</p>
+<p>户型</p>
+<p>楼层</p>
+<p>房屋情况</p>
+<p>房屋配置</p>
+<p>租金</p><br/><br/><br/><br/>
+<p>描述</p><br/><br/><br/><br/><br/><br/>
+<p>房子照片</p><br/><br/><br/>
+<p>联系人</p>
+<p>联系电话</p>
+</div>
+<!-- 右边部分 -->
+<form action="">
+<div class="content-right">
+<input class="input1" type="text" name="href">
+<p>如果你已在合租宝上找到合适的房屋，可直接粘贴房屋链接在上方，下面的信息就不用填啦</p>
+<input type="text" name="district">
+<select name="city">
+<option value="广州市" selceted>广州</option>
+<option value=""></option>
+</select>
+<select name="district">
+<option value="天河区" selceted>天河区</option>
+<option value=""></option>
+</select>
+<input type="text" value="详细地址">
+<br/>
+<input class="input2" type="text">室<input class="input2"type="text">厅<input class="input2"type="text" value="1">卫<input class="input3" type="text" value="面积">㎡<br/>
+第<input class="input2" type="text">层/共<input class="input2" type="text">层<br/>
+<select name="decorate">
+<option value="简单装修" selceted>简单装修</option>
+<option value=""></option>
+</select>
+<select name="house">
+<option value="普通住宅" selceted>普通住宅</option>
+<option value=""></option>
+</select>
+<br/>
+<div class="checkbox">
+<input type="checkbox" name="furniture"><span>家具</span>
+<input type="checkbox" name="goal-gas"><span>煤气</span>
+<input type="checkbox" name="steam"><span>暖气</span>
+<input type="checkbox" name="kuandai"><span>宽带</span>
+<input type="checkbox" name="TV"><span>电视</span>
+<input type="checkbox" name="air-conditional"><span>空调</span>
+<input type="checkbox" name="refrigerator"><span>冰箱</span>
+<input type="checkbox" name="washing-machine"><span>洗衣机</span>
+<input type="checkbox" name="water-heater"><span>热水器</span>
+<button>全选</button><button>全不选</button>
+</div>
+<br/>
+<input class="input3" type="text" name="rent-money">元/月
+<br/>
+<br/>
+<textarea rows="10" cols="60"></textarea>
+<br/>
+<div id="image"><img src="javascript:;"alt="添加照片"></div>
+<input type="text" name="contact-people">
+<br/>
+<input type="text" name="phone">
+</form>
+</div>
+<!-- 底下2个按钮 -->
+<button class="button1">保存并下一步</button>
+<button class="button2">返回</button>
+</div>
+<!-- 第四页内容 ,分成上中下三部分-->
+<div id="content4">
+<!-- 用来居中 -->	
+<div id="content4-part">	
+<div id="content4-part1">
+<!-- 每一部分的标题 -->
+<div class="title">
+<strong>个人信息</strong>
+<a href="javascript:;">>>返回修改</a>
+</div>
+<!-- 4列有4个ul -->
+<ul class="content-left">
+<li><strong>*</strong>真实姓名</li>
+<li><strong>*</strong>性别</li>
+<li><strong>*</strong>年龄</li>
+<li>家乡所在省份</li>
+<li>家乡所在城市</li>
+<li>毕业学校</li>
+<li>毕业学院</li>
+</ul>
+<ul class="content-right">
+<li>范冰冰</li>
+<li>女</li>
+<li>22</li>
+<li>广东省</li>
+<li>广州市</li>
+<li>华南农业大学</li>
+<li>艺术学院</li>
+</ul>
+<ul class="content-left">
+<li><strong>*</strong>电话号码</li>
+<li>邮箱</li>
+<li>微信</li>
+<li><strong>*</strong>是否吸烟</li>
+<li><strong>*</strong>是否喝酒</li>
+<li><strong>*</strong>工作状态</li>
+</ul>
+<ul class="content-right">
+<li>18812341234</li>
+<li>12347890@qq.com</li>
+<li>fanbb1992</li>
+<li>否</li>
+<li>否</li>
+<li>稳定</li>
+</ul>
+</div>
+<div id="content4-part2">
+<!-- 每一部分的标题 -->
+<div class="title">
+<strong>组团信息</strong>
+<a href="javascript:;">>>返回修改</a>
+</div>
+<!-- 4列有4个ul -->
+<ul class="content-left">
+<li><strong>*</strong>意向室友性别</li>
+<li><strong>*</strong>意向合租城市</li>
+<li><strong>*</strong>意向合租城区</li>
+<li><strong>*</strong>是否成员已满</li>
+<li>团员信息</li>
+<li>团长的话</li>
+</ul>
+<ul class="content-right">
+<li>女</li>
+<li>广东省</li>
+<li>广州市</li>
+<li>否</li>
+<li><img src="image/3.png" width="20px">helium</li>
+<li>希望合适的朋友尽快联系我哦么么哒</li>
+</ul>
+<ul class="content-left">
+<li><strong>*</strong>意向室友是否找到工作</li>
+<li><strong>*</strong>意向室友交流语言</li>
+<li><strong>*</strong>合租分摊租金上限</li>
+</ul>
+<ul class="content-right">
+<li>是</li>
+<li>粤语</li>
+<li>800~1000元</li>
+</ul>
+</div>
+<div id="content4-part3">
+<!-- 每一部分的标题 -->
+<div class="title">
+<strong>房屋信息</strong>
+<a href="javascript:;">>>返回修改</a>
+</div>
+<!-- 4列有4个ul -->
+<ul class="content-left">
+<li>链接</li>
+<li>小区</li>
+<li>地址</li>
+<li>户型</li>
+<li>楼层</li>
+<li>房屋情况</li>
+<li>房屋配置</li>
+<li>租金</li>
+<li>房子照片</li><br/><br/><br/><br/><br/>
+<li>联系人</li>
+<li>联系电话</li>
+</ul>
+<ul class="content-right">
+<li>www.hezubao.com/house/0001</li>
+<li>欢乐颂小区</li>
+<li>广州市 天河区 五山路483号</li>
+<li>3室 1厅 1卫 120㎡</li>
+<li>第22层 共30层</li>
+<li>普通装修 普通住宅</li>
+<li>床 热水器 宽带</li>
+<li>3500 元/月</li>
+<li><img src="javascript:;" width="180px" height="130px"></li>
+<li>曲小姐</li>
+<li>18812331233</li>
+</ul>
+</div>
+<button class="button1">确认并发布</button>
+<button class="button2">继续修改</button>
+</div>
+</div>
+
+
+</div>
+</div>
+</body>
+</html>
